@@ -1,11 +1,11 @@
 <iframe style="position: absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;" src="https://docs.google.com/forms/d/e/1FAIpQLSeU4CmaDSBxXeU55yman4-L-uf-I31ivXQLY6cOX11FGEUVmQ/closedform"></iframe>
 
-<link rel="manifest" href="/AnythingPWA/manifest.json">
+<link rel="manifest" href="manifest.json">
 
 <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/AnythingPWA/service-worker.js');
+        navigator.serviceWorker.register('service-worker.js');
       });
     }
   </script>
