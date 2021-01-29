@@ -1,0 +1,22 @@
+{
+    "short_name": "AnyPWA",
+    "name": "AnyPWA",
+    "icons": [
+      {
+        "src": "/images/orange_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/orange_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html?source=pwa",
+    "background_color": "#0099fe",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#0099fe"
+  }
+  
