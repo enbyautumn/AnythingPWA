@@ -1,11 +1,17 @@
 {
-    "short_name": "AnyPWA",
-    "name": "AnyPWA",
-    "icons": [],
+    "short_name": "IslandTrack",
+    "name": "IslandTracker",
+    "icons": [
+      {
+        "src": "images/image.png",
+        "sizes": "225x225",
+        "type": "image/png"
+      }
+    ],
     "start_url": "/index.html?source=pwa",
-    "background_color": "#0099fe",
+    "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#0099fe"
+    "theme_color": "#ffffff"
   }
   
